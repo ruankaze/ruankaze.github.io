@@ -1,0 +1,25 @@
+body {
+    background: url('../images/god-wing.webp') no-repeat center;background-size: cover;
+}
+body a:nth-child(1) {
+    display: none;
+}
+.bannerafter {
+    position: absolute;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(0, 0, 0, 0.45);content: "";
+    /*box-shadow: inset 1px 1px 800px #03a9f426, inset -1px -1px 800px #03a9f426;*/
+}
+.index {
+    z-index: 999;
+}
+.caption-data {
+    margin-top: 0px;cursor: default;
+}
+.searchvals .btn {
+    margin: 10px;color: #ffffff;padding: 5px;border-radius: 10px;transition: initial;box-shadow: 1px 1px 3px #ffffff, -1px -1px 3px #00000000;
+}
+.searchvals .btn:hover {
+    outline: none;background-color: #00000038;color: #FFC400;box-shadow: 1px 1px 80px #03A9F4, -1px -1px 80px #F44336;
+}
+.god, .cvanimes, #canvas3, .bannerafter {
+    display: none;
+}
